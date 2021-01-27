@@ -1,0 +1,71 @@
+/*common css start*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.clr{
+    clear: both;
+}
+/*common css end*/
+
+/*heading css start*/
+
+.heading-bg{
+    height: 40px;
+    width: 100%;
+    background:#000; 
+}
+
+.heading-bg .heading-contant{
+    height: 40px;
+    width: 1170px;
+    background: red;
+    margin: 0 auto;
+}
+
+.heading-bg .heading-contant .heading-text{
+    height: 40px;
+    width:900px; 
+    background:#8b8bea; 
+    float: left;        
+}
+
+.heading-bg .heading-contant .heading-text p{
+    color: #fff;    
+}
+
+
+.heading-bg .heading-contant .heading-link{
+    height: 40px;
+    width:270px; 
+    background:#01014d; 
+    float: left;    
+}
+
+.heading-bg .heading-contant .heading-link p{
+
+}
+
+/*heading css end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
