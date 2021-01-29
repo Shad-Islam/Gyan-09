@@ -1,52 +1,147 @@
 /*common css start*/
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-.clr{
+
+.clr {
     clear: both;
 }
+
+a {
+    text-decoration: none;
+}
+
 /*common css end*/
 
 /*heading css start*/
 
-.heading-bg{
+.heading-bg {
     height: 40px;
     width: 100%;
-    background:#000; 
+    background: #2D3E50;
 }
 
-.heading-bg .heading-contant{
+.heading-bg .heading-contant {
     height: 40px;
     width: 1170px;
-    background: red;
     margin: 0 auto;
 }
 
-.heading-bg .heading-contant .heading-text{
+.heading-bg .heading-contant .heading-text {
     height: 40px;
-    width:900px; 
-    background:#8b8bea; 
-    float: left;        
+    width: 900px;
+
+    float: left;
 }
 
-.heading-bg .heading-contant .heading-text p{
-    color: #fff;    
+.heading-bg .heading-contant .heading-text p {
+    color: #fff;
+    line-height: 40px;
 }
 
+.heading-bg .heading-contant .heading-text p span {
+    padding-left: 20px;
+}
 
-.heading-bg .heading-contant .heading-link{
+.heading-bg .heading-contant .heading-link {
     height: 40px;
-    width:270px; 
-    background:#01014d; 
-    float: left;    
+    width: 270px;
+    float: left;
+    text-align: right;
 }
 
-.heading-bg .heading-contant .heading-link p{
-
+.heading-bg .heading-contant .heading-link p {
+    color: #fff;
+    line-height: 40px;
 }
 
 /*heading css end*/
+
+/*menu start*/
+.menu_bg {
+    height: 120px;
+    width: 100%;
+   
+}
+
+.menu_bg .menu_contant {
+    height: 120px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.menu_bg .menu_contant .menu_logo {
+    height: 100%;
+    width: 120px;
+    float: left;
+}
+
+.menu_bg .menu_contant .menu_logo img {
+    padding-top: 20px;
+}
+
+.menu_bg .menu_contant .menu_list {
+    height: 100%;
+    width: 850px;
+    float: left;
+}
+
+.menu_bg .menu_contant .menu_list ul {
+    list-style: none;
+    margin-left: 100px;
+}
+
+.menu_bg .menu_contant .menu_list ul li {
+    float: left;
+    line-height: 120px;
+}
+
+.menu_bg .menu_contant .menu_list ul li a {
+    text-transform: capitalize;
+    padding: 0 15px;
+    color: #000000;
+    transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    font-size: 20px;
+}
+
+.menu_bg .menu_contant .menu_list ul li a:hover {
+    color: #edd207;
+}
+
+.menu_bg .menu_contant .menu_link {
+    height: 100%;
+    width: 200px;
+    float: left;
+    text-align: right;
+}
+
+.menu_bg .menu_contant .menu_link a {
+    line-height: 120px;
+    text-transform: capitalize;
+    color: #FFF;
+    background: #edd207;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+/*menu end*/
+
+
+/*banner start*/
+.banner-bg{
+    height: 
+}
+/*banner end*/
+
+
+
 
 
 
